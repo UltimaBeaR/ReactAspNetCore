@@ -28,7 +28,10 @@ module.exports = (env) => {
                 'event-source-polyfill', 'isomorphic-fetch',
 
                 // react
-                'react', 'react-dom', 'react-router-dom'
+                'react', 'react-dom', 'react-router-dom',
+
+                // mobx
+                'mobx', 'mobx-react'
 
                 // other vendor packages go here
             ]
